@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 70vw;
+  height: 70vh;
+  border-radius: 1rem;
+  background-blend-mode: darken;
+  background-image: url("https://img.freepik.com/free-vector/magic-trick-poster_1284-13014.jpg");
+  background-size: cover;
+  animation: carousal 20s linear infinite;
+}
+    
+@keyframes carousal {
+  0% {
+    background-image: url("https://st2.depositphotos.com/1653909/8228/i/450/depositphotos_82284502-stock-photo-magician-hands-with-magic-wand.jpg");
+  }
+  30% {
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/021/652/217/small/abstract-beautiful-light-background-magic-sparks-on-a-dark-background-mystical-speed-stripes-glitter-effect-shine-of-cosmic-rays-neon-lines-of-speed-and-fast-wind-glow-effect-powerful-energy-vector.jpg");
+  }
+  60% {
+    background-image: url("https://png.pngtree.com/png-clipart/20210114/ourmid/pngtree-realistic-magic-light-effect-magic-book-png-image_2700344.jpg");
+  }
+}
